@@ -3,7 +3,7 @@ import java.awt.*;
 import java.applet.*;
 
 //een klasse met de naam Show van het type Applet
-public class Opdracht21 extends Applet {
+public class Opdracht21en22 extends Applet {
 
     //een (lege) methode die de Applet initialiseert
     public void init() {
