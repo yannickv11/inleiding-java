@@ -5,10 +5,12 @@ import java.applet.*;
 import java.awt.event.*;
 
 
-public class opdracht101 extends Applet {
+public class opdracht102 extends Applet {
 
     int leeftijd;
     int nleeftijd;
+    int lleeftijd;
+    int lleeftijd2;
     TextField tekstvak;
     Label label;
     String tekst;
@@ -22,11 +24,16 @@ public class opdracht101 extends Applet {
 
         add(label);
         add(tekstvak);
+
+        lleeftijd2 = 999999999;
     }
 
-    public void paint(Graphics g) {
+    public void paint (Graphics g) {
         g.drawString("" +  leeftijd, 50, 45);
+        g.drawString("" +  lleeftijd, 50, 60);
     }
+
+
 
     class VakListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
@@ -39,8 +46,15 @@ public class opdracht101 extends Applet {
                 repaint();
 
             }
-
+            if (nleeftijd < lleeftijd2) {
+                lleeftijd2 = nleeftijd;
+                lleeftijd = lleeftijd2;
+                repaint();
 
             }
+
+
         }
     }
+}
+
