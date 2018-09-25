@@ -5,7 +5,6 @@ import java.applet.*;
 import java.awt.event.*;
 
 public class opdracht103 extends Applet {
-
     int input;
     String maand;
 
@@ -109,7 +108,7 @@ public class opdracht103 extends Applet {
             if (input == 7) {
                 maand = "Juli heeft 31 dagen.";
             }
-            if (input == 0) {
+            if (input == 8) {
                 maand = "Augustus heeft 31 dagen.";
             }
             if (input == 9) {
@@ -122,7 +121,7 @@ public class opdracht103 extends Applet {
                 maand = "November heeft 30 dagen.";
             }
             if (input == 12) {
-                maand = "december heeft 31 dagen.";
+                maand = "December heeft 31 dagen.";
             }
 
             tekstvak.setText("");
