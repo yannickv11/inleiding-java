@@ -1,4 +1,6 @@
 //importeer de benodigde klassen uit de Java bibliotheek
+package h02;
+
 import java.awt.*;
 import java.applet.*;
 
