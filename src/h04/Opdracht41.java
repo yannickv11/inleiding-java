@@ -3,8 +3,8 @@ package h04;
 import java.applet.Applet;
 import java.awt.*;
 
-public class Opdracht41{
-    public static class Opdracht31 extends Applet {
+
+    public  class Opdracht41 extends Applet {
 
         public void init() {
         }
@@ -17,4 +17,4 @@ public class Opdracht41{
             g.drawLine(150,200,250,200);
         }
     }
-}
+

@@ -8,12 +8,14 @@ public class Opdracht51 extends Applet {
     Color lijnkleur;
     int breedte;
     int hoogte;
+    int breedtee;
 
     public void init() {
         lijnkleur = Color.black;
         breedte = 200;
         opvulkleur = Color.magenta;
         hoogte = 100;
+        breedtee = 100;
 
     }
 
@@ -23,7 +25,7 @@ public class Opdracht51 extends Applet {
         g.setColor(Color.black);
         g.drawRect(20, 20, breedte, hoogte);
         g.drawRoundRect(20, 150, breedte, hoogte, 10, 10);
-        g.drawOval(20, 310, 100, hoogte);
+        g.drawOval(20, 310, breedtee, hoogte);
         g.drawOval(350, 20, breedte, hoogte);
         g.fillOval(350,20,breedte,hoogte);
         g.setColor(opvulkleur);

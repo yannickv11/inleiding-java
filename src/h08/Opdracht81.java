@@ -53,7 +53,7 @@ TextField Textvak;
             repaint();
         }
     }
-    class clearknopListener implements ActionListener {
+   class clearknopListener implements ActionListener{
         public void actionPerformed(ActionEvent e) {
             string = Textvak.getText();
             Textvak.setText("");
