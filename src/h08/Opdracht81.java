@@ -58,6 +58,7 @@ TextField Textvak;
             string = Textvak.getText();
             Textvak.setText("");
             schermtekst = "";
+
             repaint();
         }
     }
