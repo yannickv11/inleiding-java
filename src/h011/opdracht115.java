@@ -2,7 +2,7 @@ package h011;
 
 
 import java.awt.*;
-import java.applet.*;
+        import java.applet.*;
 
 
 public class opdracht115 extends Applet {

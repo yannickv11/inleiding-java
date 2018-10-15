@@ -8,7 +8,7 @@ import java.awt.event.*;
 public class Opdracht81 extends Applet {
     Button okknop;
     Button clearknop;
-TextField Textvak;
+    TextField Textvak;
     Label label;
     String string;
     String schermtekst;

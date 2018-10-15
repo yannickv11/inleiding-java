@@ -6,7 +6,6 @@ import java.applet.*;
 
 public class opdracht111 extends Applet {
 
-    public void init() {}
 
     public void paint(Graphics g) {
         int x = 0;

@@ -22,7 +22,6 @@ public class opdracht119 extends Applet {
 
 
             for (int kolom = 0; kolom < 4; kolom++) {
-
                 g.drawRect(x, y, breedte, hoogte);
                 g.fillRect(x + 20, y, breedte + 1, hoogte + 1);
                 x += 40;
@@ -30,7 +29,6 @@ public class opdracht119 extends Applet {
             y += 20;
             x = 20;
             for (int kolom = 0; kolom < 4; kolom++) {
-
                 g.fillRect(x, y, breedte + 1, hoogte + 1);
                 g.drawRect(x + 20, y, breedte, hoogte);
 

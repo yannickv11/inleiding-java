@@ -85,17 +85,19 @@ public class Opdracht106 extends Applet {
 
             ;
 
-            if (input > 5.5 && (gem < 7.4)) {
-                cijfer = "Voldoende";}
+
 
                 if (input > 1.5 && (gem < 3.4 )) {
                     cijfer = "slecht";}
 
                     if (input > 3.4 && (gem < 4.4 )) {
-                    cijfer = "onvoldoende ";}
+                    cijfer = "Onvoldoende ";}
 
                     if (input > 4.4 && (gem < 5.4 )) {
-                    cijfer = "matig ";}
+                    cijfer = "Matig ";}
+
+                    if (input > 5.4 && (gem < 7.4 )) {
+                        cijfer = "Voldoende" ; }
 
                     if (input > 7.4 && (gem < 10 )) {
                     cijfer = "goed";}
