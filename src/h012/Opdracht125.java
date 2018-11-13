@@ -21,7 +21,6 @@ public class Opdracht125 extends Applet {
         setSize(600, 400);
 
         tekstvak = new TextField("", 5);
-        tekstvak.addActionListener(new tekstvakListener());
         add(tekstvak);
 
         knop = new Button("Ok");
@@ -58,26 +57,6 @@ public class Opdracht125 extends Applet {
             gevonden = false;
 
             index = (gezocht/100)-1;
-            int i = 0;
-            while (i < tabel.length) {
-                if (tabel[i] == gezocht) {
-                    gevonden = true;
-                }
-                i++;
-                repaint();
-            }
-            repaint();
-        }
-    }
-    class tekstvakListener implements ActionListener {
-        public void actionPerformed(ActionEvent e) {
-            s = tekstvak.getText();
-            gezocht = Integer.parseInt(s);
-
-            gevonden = false;
-
-            index = (gezocht/ 100)-1;
-
             int i = 0;
             while (i < tabel.length) {
                 if (tabel[i] == gezocht) {

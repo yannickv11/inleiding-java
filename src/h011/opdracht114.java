@@ -17,8 +17,6 @@ public class opdracht114 extends Applet {
       tweede = 3;
       derde = 3;
 
-
-
     }
 
     public void paint(Graphics g) {

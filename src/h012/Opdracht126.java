@@ -68,6 +68,11 @@ public class Opdracht126 extends Applet {
                 }
                 i++;
             }
+            for (int j = 0; j < tabel.length ; j++) {
+                if(gezocht == tabel[j]) {
+                    hoeveel += 1;
+                }
+            }
             repaint();
         }
     }
